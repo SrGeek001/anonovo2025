@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alarm Clock';
+}
+@font-face{
+    font-family: 'Alarm Clock';
+    src: url(alarm_clock.ttf);
+}
+
+body{
+    background-image: url(../img/happ-new-year.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin: 2% 0;
+    color: rgb(8, 4, 4);
+    font-size: 32px;
+}
+#timer{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align:center;
+    background-color: rgba(1, 0, 31, 0.699);
+    color: #ecf011;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+#timer p{
+    display: inline;
+}
+#timer span{
+    font-size: 20px;
+}
+#timer .dias{
+    font-size: 64px;
+}
+#timer .resto{
+    font-size: 38px;
+}
